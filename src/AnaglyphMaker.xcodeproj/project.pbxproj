@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F5EE70305C882C4008B5592 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 1F5EE70205C882C4008B5592 /* Credits.html */; };
+		1F688A7F05C9796200AAD092 /* AnaglyphApplicationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F688A7D05C9796200AAD092 /* AnaglyphApplicationDelegate.h */; };
+		1F688A8005C9796200AAD092 /* AnaglyphApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F688A7E05C9796200AAD092 /* AnaglyphApplicationDelegate.m */; };
+		1F918FEF05C889BC004F9E4D /* AnaglyphController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F918FED05C889BC004F9E4D /* AnaglyphController.h */; };
+		1F918FF005C889BC004F9E4D /* AnaglyphController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F918FEE05C889BC004F9E4D /* AnaglyphController.m */; };
+		1FA5E1F005C8C27300B3FBD7 /* anaglyph.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1FA5E1EE05C8C27300B3FBD7 /* anaglyph.icns */; };
+		1FA5E1F105C8C27300B3FBD7 /* anaglyph_docicon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1FA5E1EF05C8C27300B3FBD7 /* anaglyph_docicon.icns */; };
+		1FB6DFEC05D7ED22005C765F /* NSImage-Normalize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB6DFEA05D7ED22005C765F /* NSImage-Normalize.m */; };
+		1FB6DFED05D7ED22005C765F /* NSImage-Normalize.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB6DFEB05D7ED22005C765F /* NSImage-Normalize.h */; };
+		1FDB0A9705C89FFC004326C0 /* NSImage+anaglyph.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FDB0A9505C89FFC004326C0 /* NSImage+anaglyph.h */; };
+		1FDB0A9805C89FFC004326C0 /* NSImage+anaglyph.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB0A9605C89FFC004326C0 /* NSImage+anaglyph.m */; };
+		1FE2B22C05D70A5F00461DCF /* NKDNotifyingImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE2B22A05D70A5F00461DCF /* NKDNotifyingImageView.h */; };
+		1FE2B22D05D70A5F00461DCF /* NKDNotifyingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2B22B05D70A5F00461DCF /* NKDNotifyingImageView.m */; };
+		1FFA9E0205C9978100D9D57B /* AnaglyphMaker Help in Resources */ = {isa = PBXBuildFile; fileRef = 1FFA9DFD05C9978100D9D57B /* AnaglyphMaker Help */; };
+		1FFA9E1905C9D39C00D9D57B /* images in Resources */ = {isa = PBXBuildFile; fileRef = 1FFA9E0C05C9D39C00D9D57B /* images */; };
+		8D15AC290486D014006FF6A4 /* AnaglyphMaker_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCF750370BD2300C91783 /* AnaglyphMaker_Prefix.pch */; };
+		8D15AC2A0486D014006FF6A4 /* AnaglyphDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A37F4AEFDCFA73011CA2CEA /* AnaglyphDocument.h */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */; };
+		8D15AC2E0486D014006FF6A4 /* AnaglyphDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B4FDCFA73011CA2CEA /* AnaglyphDocument.nib */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC310486D014006FF6A4 /* AnaglyphDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* AnaglyphDocument.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4A9504D0FFE6A4CB11CA0CBA /* Development */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OPTIMIZATION_CFLAGS = "-O0";
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		4A9504D1FFE6A4CB11CA0CBA /* Deployment */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1F5EE70205C882C4008B5592 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
+		1F688A7D05C9796200AAD092 /* AnaglyphApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AnaglyphApplicationDelegate.h; sourceTree = "<group>"; };
+		1F688A7E05C9796200AAD092 /* AnaglyphApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AnaglyphApplicationDelegate.m; sourceTree = "<group>"; };
+		1F918FED05C889BC004F9E4D /* AnaglyphController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AnaglyphController.h; sourceTree = "<group>"; };
+		1F918FEE05C889BC004F9E4D /* AnaglyphController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AnaglyphController.m; sourceTree = "<group>"; };
+		1FA5E1EE05C8C27300B3FBD7 /* anaglyph.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = anaglyph.icns; sourceTree = "<group>"; };
+		1FA5E1EF05C8C27300B3FBD7 /* anaglyph_docicon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = anaglyph_docicon.icns; sourceTree = "<group>"; };
+		1FB6DFEA05D7ED22005C765F /* NSImage-Normalize.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSImage-Normalize.m"; sourceTree = "<group>"; };
+		1FB6DFEB05D7ED22005C765F /* NSImage-Normalize.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSImage-Normalize.h"; sourceTree = "<group>"; };
+		1FDB0A9505C89FFC004326C0 /* NSImage+anaglyph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+anaglyph.h"; sourceTree = "<group>"; };
+		1FDB0A9605C89FFC004326C0 /* NSImage+anaglyph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+anaglyph.m"; sourceTree = "<group>"; };
+		1FE2B22A05D70A5F00461DCF /* NKDNotifyingImageView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NKDNotifyingImageView.h; sourceTree = "<group>"; };
+		1FE2B22B05D70A5F00461DCF /* NKDNotifyingImageView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = NKDNotifyingImageView.m; sourceTree = "<group>"; };
+		1FFA9DFD05C9978100D9D57B /* AnaglyphMaker Help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "AnaglyphMaker Help"; sourceTree = "<group>"; };
+		1FFA9E0C05C9D39C00D9D57B /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		2A37F4ACFDCFA73011CA2CEA /* AnaglyphDocument.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AnaglyphDocument.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* AnaglyphDocument.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AnaglyphDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4B5FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/AnaglyphDocument.nib; sourceTree = "<group>"; };
+		2A37F4B7FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32DBCF750370BD2300C91783 /* AnaglyphMaker_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnaglyphMaker_Prefix.pch; sourceTree = "<group>"; };
+		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* AnaglyphMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnaglyphMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* AnaglyphMaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* AnaglyphMaker */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = AnaglyphMaker;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1FB6DFEA05D7ED22005C765F /* NSImage-Normalize.m */,
+				1FB6DFEB05D7ED22005C765F /* NSImage-Normalize.h */,
+				1FE2B22A05D70A5F00461DCF /* NKDNotifyingImageView.h */,
+				1FE2B22B05D70A5F00461DCF /* NKDNotifyingImageView.m */,
+				2A37F4AEFDCFA73011CA2CEA /* AnaglyphDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* AnaglyphDocument.m */,
+				1F918FED05C889BC004F9E4D /* AnaglyphController.h */,
+				1F918FEE05C889BC004F9E4D /* AnaglyphController.m */,
+				1FDB0A9505C89FFC004326C0 /* NSImage+anaglyph.h */,
+				1FDB0A9605C89FFC004326C0 /* NSImage+anaglyph.m */,
+				1F688A7D05C9796200AAD092 /* AnaglyphApplicationDelegate.h */,
+				1F688A7E05C9796200AAD092 /* AnaglyphApplicationDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF750370BD2300C91783 /* AnaglyphMaker_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FFA9DFD05C9978100D9D57B /* AnaglyphMaker Help */,
+				1FFA9E0C05C9D39C00D9D57B /* images */,
+				1FA5E1EE05C8C27300B3FBD7 /* anaglyph.icns */,
+				1FA5E1EF05C8C27300B3FBD7 /* anaglyph_docicon.icns */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */,
+				2A37F4B4FDCFA73011CA2CEA /* AnaglyphDocument.nib */,
+				8D15AC360486D014006FF6A4 /* Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				1F5EE70205C882C4008B5592 /* Credits.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D15AC280486D014006FF6A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC290486D014006FF6A4 /* AnaglyphMaker_Prefix.pch in Headers */,
+				8D15AC2A0486D014006FF6A4 /* AnaglyphDocument.h in Headers */,
+				1F918FEF05C889BC004F9E4D /* AnaglyphController.h in Headers */,
+				1FDB0A9705C89FFC004326C0 /* NSImage+anaglyph.h in Headers */,
+				1F688A7F05C9796200AAD092 /* AnaglyphApplicationDelegate.h in Headers */,
+				1FE2B22C05D70A5F00461DCF /* NKDNotifyingImageView.h in Headers */,
+				1FB6DFED05D7ED22005C765F /* NSImage-Normalize.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* AnaglyphMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD44EE7091BD91900EF38C9 /* Build configuration list for PBXNativeTarget "AnaglyphMaker" */;
+			buildPhases = (
+				8D15AC280486D014006FF6A4 /* Headers */,
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AnaglyphMaker_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.1;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = AnaglyphMaker;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			name = AnaglyphMaker;
+			productInstallPath = "$(HOME)/Applications";
+			productName = AnaglyphMaker;
+			productReference = 8D15AC370486D014006FF6A4 /* AnaglyphMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1FD44EEB091BD91900EF38C9 /* Build configuration list for PBXProject "AnaglyphMaker" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				4A9504D0FFE6A4CB11CA0CBA /* Development */,
+				4A9504D1FFE6A4CB11CA0CBA /* Deployment */,
+			);
+			hasScannedForEncodings = 1;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* AnaglyphMaker */;
+			projectDirPath = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* AnaglyphMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */,
+				8D15AC2E0486D014006FF6A4 /* AnaglyphDocument.nib in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				1F5EE70305C882C4008B5592 /* Credits.html in Resources */,
+				1FA5E1F005C8C27300B3FBD7 /* anaglyph.icns in Resources */,
+				1FA5E1F105C8C27300B3FBD7 /* anaglyph_docicon.icns in Resources */,
+				1FFA9E0205C9978100D9D57B /* AnaglyphMaker Help in Resources */,
+				1FFA9E1905C9D39C00D9D57B /* images in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC310486D014006FF6A4 /* AnaglyphDocument.m in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				1F918FF005C889BC004F9E4D /* AnaglyphController.m in Sources */,
+				1FDB0A9805C89FFC004326C0 /* NSImage+anaglyph.m in Sources */,
+				1F688A8005C9796200AAD092 /* AnaglyphApplicationDelegate.m in Sources */,
+				1FE2B22D05D70A5F00461DCF /* NKDNotifyingImageView.m in Sources */,
+				1FB6DFEC05D7ED22005C765F /* NSImage-Normalize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A37F4B4FDCFA73011CA2CEA /* AnaglyphDocument.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4B5FDCFA73011CA2CEA /* English */,
+			);
+			name = AnaglyphDocument.nib;
+			sourceTree = "<group>";
+		};
+		2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4B7FDCFA73011CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FD44EE8091BD91900EF38C9 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AnaglyphMaker_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.1;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = AnaglyphMaker;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		1FD44EE9091BD91900EF38C9 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AnaglyphMaker_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = AnaglyphMaker;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		1FD44EEA091BD91900EF38C9 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AnaglyphMaker_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.1;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = AnaglyphMaker;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		1FD44EEC091BD91900EF38C9 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		1FD44EED091BD91900EF38C9 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		1FD44EEE091BD91900EF38C9 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FD44EE7091BD91900EF38C9 /* Build configuration list for PBXNativeTarget "AnaglyphMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD44EE8091BD91900EF38C9 /* Development */,
+				1FD44EE9091BD91900EF38C9 /* Deployment */,
+				1FD44EEA091BD91900EF38C9 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		1FD44EEB091BD91900EF38C9 /* Build configuration list for PBXProject "AnaglyphMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD44EEC091BD91900EF38C9 /* Development */,
+				1FD44EED091BD91900EF38C9 /* Deployment */,
+				1FD44EEE091BD91900EF38C9 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

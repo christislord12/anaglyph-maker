@@ -1,0 +1,56 @@
+<html>
+<head>
+<meta name="AppleTitle" content="Naked Software Help"></meta>
+<title>Naked Software's Anaglyph Maker Help</title>
+</head>
+<body>
+<center><H1>Anaglyph Maker Help</H1><BR>
+<img src="images/anaglyphicon.jpg" alt="" width="142" height="143" align="middle"></center>
+<BR>
+
+<H3>Introduction</H3>
+Anaglyph Maker is a program for generating 3D (red/blue) stereograms. It requires two source images. These will generally be two images taken either simultaneously from two cameras located a few inches apart, or sequentially from one camera that is moved a few inches along a horizontal plane between shots. You can buy or make a special tripod mount that will allow you to move the camera horizontally between shots without otherwise alterning the angle of view, although this option only works with subjects that tend to stand still for fairly long periods of time.<BR><BR>
+The two source pictures (aka the "stereo pair") should be taken with the lenses parallel with each other. The correct distance to space the lenses will vary depending on the distance away from the subject, the focal length of the lense, and the amount of perceived "depth" desired. Generally, 4-6 centimeters is a good starting point, but you will probably need to experiment a little with your equipment.<BR>
+<CENTER><img src="images/camera_setup.jpg" alt="" width="130" height="400" align="middle"></center><BR>
+The two cameras (or one camera used twice) act very much in the same way your eyes do. Each one captures a slightly different image because each camera has a slightly different angle of view, just like your eyes.
+<CENTER><img src="images/angleofview.jpg" alt="" width="300" height="293" align="middle"></CENTER><BR>
+By superimposing the two images in a special way and filtering the resulting image through red and blue lenses so that the angle of view from only one camera reaches each eye, the illusion of depth is achieved.
+<BR><BR>
+There are many good resources on the web about creating anaglyphs, as well as sites that discuss the science behind them. You can also find resources to help you to combine two cameras to create a single anaglyphic cameras, to help you make a camera slide, or to help you find a place to buy special cameras and equipment specifically designed for taking stereo pair images. Here are a few resources I have found helpful while creating Anaglyph Maker, but this is in no ways an exhaustive list:
+<BR>
+<H3>Online Resources</H3>
+&nbsp;&nbsp;&nbsp;&nbsp;<A href="http://www.3dstereo.com/3d.mvc?p=BAR-SL8">A trip mount for taking stereo pairs</a><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.mineralarts.com/stereo/cameraslide.html">Information on building a camera slide</a><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.mineralarts.com/stereo/howto.html">A general informational site, including charts for calculating how far apart your cameras should be</a><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.dddesign.com/3dbydan/3dlinks/linksct.htm">A collection of links related to anaglyphs</a><BR>
+<BR>
+<H3>Using Anaglyph Maker</H3>
+Making the source images is the hard part. Once you've got those, creating an anaglyph is easy. There are a couple of limitations, however. The two source images must be the same size, and must both be RGB or both grayscale in order for the conversion to work correctly. <BR><BR><CENTER><img src="images/interface.jpg" alt="" width="750" height="265" align="middle"></CENTER><BR>
+Anaglyph Maker has a fairly straightforward interface.<BR><BR>The left image, which is the picture taken by the left camera, or the camera when it was in the leftmost position, should be loaded into the "Left Image" image well. <BR><BR>
+<CENTER><img src="images/leftimage.jpg" alt="" width="751" height="265" align="middle"></CENTER><BR>You can load the image well by  dragging an image from another program, dragging the icon of an image file from the Finder, or by pressing the "Load" button and selecting the file when prompted. Repeat the procedure for the "Right Image" image well.<BR><BR>
+<CENTER><img src="images/rightImage.jpg" alt="" width="751" height="265" align="middle"></CENTER><BR>
+If you accidentally load the wrong image into either well, simply load another image, or press the "Clear" button.<BR><BR>
+
+Once you have loaded both image wells, a small preview of the final image will appear. <BR><BR>
+<CENTER><img src="images/finalImage.jpg" alt="" width="751" height="265" align="middle"></CENTER><BR>By default, Anaglyph Maker will generate a grayscale anaglyph, even if the source images are color. This is done because, with most pictures, the stereo affect is more pronounced and the image clearer when creating a grayscale anaglyph. If you would like to create a color anaglyph, you can click the conversion mode radio button labled "Color":<BR><BR>
+<CENTER><img src="images/conversionMode.jpg" alt="" width="751" height="265" align="middle"></CENTER><BR>
+The algorithm used to create a color anaglyph in Anaglyph Maker is a more complex and resource demanding algorithm than the one used in most programs, but results in brighter, sharper color images than using the traditional algorithm. Because of this, you may notice a delay after clicking the "Color" radio button. Future releases of Anaglyph Builder will move this process to a separate thread, but for now, Anaglyph Maker may be a little unresponsive while generating the Color Anaglyph.<BR><BR>
+When satisfied with the preview, you can export the final image. Even though the preview is small, the exported final image will be the same size as the original stereo pair. To export the final image at full size, click the "Export" button to the left of the "Final Image" image well:<BR>
+<CENTER><img src="images/export.jpg" alt="" width="751" height="265" align="middle"></CENTER><BR>
+You will be prompted for the location and filename to save. Open the image in another program, and you have your final, full-size anaglyph ready to be viewed with a pair of red-blue or red-cyan 3-D glasses:<BR><BR>
+<CENTER><img src="images/swans.jpg" alt="" width="222" height="215" align="middle"></CENTER><BR>
+<BR>Currently, Anaglyph Maker supports only the export of TIFF images; future versions will likely support other file formats. Preview, the image viewer that comes with Mac OS X can convert the TIFF image to other formats you may need.<BR><BR>
+If you wish, you can save your stereo pair in an Anaglyph Maker document by selecting "Save..." from the File menu. You will later be able to load the stereo pair back in by double-clicking on the Anaglyph Maker document or by selecting "Open..." from the File menu.<BR><BR>
+<H3>3D Glasses for Viewing Anaglyphs</H3>
+There are a number of places where you can get red-blue or red-cyan 3D glasses. Here are a few sources for you:<BR><BR>
+
+&nbsp;&nbsp;&nbsp;&nbsp;<A href="http://www.rainbowsymphony.com/">Rainbow Symphony</A> has a large selection of disposable and permanent glasses, and will give you a free pair to try out for the price of postage. You can buy a large quantity of paper 3-D glasses for a reasonable amount. I have purchased from them and found them to be responsive and fairly priced.<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;<A href="http://www.spacekids.com/freestuff/">Space Kids</A> will also send you a free pair of glasses.<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.3dglasses.net/">3D Glasses.net</a> is another source for buying the glasses.<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.stereoscopy.com/reel3d/anaglyph-glasses.html">Stereoscopy</a> also has several models.<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;For the truly intrepid, <A href="http://terraweb.wr.usgs.gov/TRS/kids/glasses.html">the United States Geological Service</a> has instructions on making your own glasses. <B>Note:</B> the glasses aren't that hard to make, but the do take a little time, and you have to make sure that the red and blue cellophane you have is very clear. I tried with blue and red craft cellophane and found the results less than acceptable.<BR><BR>
+<H3>Good Luck!</H3>
+That's about all there is to it. Good luck and have fun, and if you find any bugs, have any problems, or want to leave a comment, please feel free to <a href="mailto:jeff_lamarche@mac.com">e-mail me</a>.
+
+
+<body>

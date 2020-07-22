@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>anaglyph</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>anaglyph_docicon</string>
+			<key>CFBundleTypeName</key>
+			<string>Anaglyph Document</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>NSDocumentClass</key>
+			<string>AnaglyphDocument</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>AnaglyphMaker</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>AnaglyphMaker Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>Naked Software Help</string>
+	<key>CFBundleIconFile</key>
+	<string>anaglyph</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.naked.anaglyphmaker</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>An3D</string>
+	<key>CFBundleVersion</key>
+	<string>1.0b9</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>

@@ -1,0 +1,45 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                changeColorMode = id; 
+                clearImage = id; 
+                exportFinalImage = id; 
+                loadImage = id; 
+                updateFinalImage = id; 
+            }; 
+            CLASS = AnaglyphController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                clearLeftImageButton = NSButton; 
+                clearRightImageButton = NSButton; 
+                colorModeRadioButtons = NSMatrix; 
+                document = AnaglyphDocument; 
+                exportButton = NSButton; 
+                finalImage = NSImageView; 
+                leftImage = NSImageView; 
+                loadLeftImageButton = NSButton; 
+                loadRightImageButton = NSButton; 
+                processingSpinner = NSProgressIndicator; 
+                rightImage = NSImageView; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = AnaglyphDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {controller = AnaglyphController; }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MyDocument; LANGUAGE = ObjC; SUPERCLASS = NSDocument; }, 
+        {CLASS = NKDNotifyingImageView; LANGUAGE = ObjC; SUPERCLASS = NSImageView; }, 
+        {
+            ACTIONS = {imageViewDidReceiveDrop = id; }; 
+            CLASS = NSObject; 
+            LANGUAGE = ObjC; 
+        }
+    ); 
+    IBVersion = 1; 
+}
